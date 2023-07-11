@@ -16,6 +16,7 @@
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.20.4",
+		"@types/d3-scale": "^4.0.3",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
 		"autoprefixer": "^10.4.14",
@@ -37,7 +38,10 @@
 	"dependencies": {
 		"class-variance-authority": "^0.6.1",
 		"clsx": "^1.2.1",
+		"d3-scale": "^4.0.2",
 		"lucide-svelte": "^0.259.0",
+		"radix-svelte": "^0.8.0",
+		"svelte-wrap-balancer": "^0.0.3",
 		"tailwind-merge": "^1.13.2",
 		"tailwindcss-animate": "^1.0.6"
 	}
