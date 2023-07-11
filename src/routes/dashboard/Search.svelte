@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Input } from "../ui";
+	import { Input } from "$ui";
 </script>
 
 <div>

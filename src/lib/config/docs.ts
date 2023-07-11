@@ -319,12 +319,12 @@ export const examples: Example[] = [
 	{
 		name: "Dashboard",
 		href: "/dashboard",
-		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/lib/components/docs/dashboard"
+		code: "https://github.com/Evertt/sk-forms-showcase-project/tree/main/src/routes/dashboard"
 	},
 	{
 		name: "Cards",
 		href: "/cards",
-		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/examples/cards"
+		code: "https://github.com/Evertt/sk-forms-showcase-project/tree/main/src/routes/cards"
 	},
 	// {
 	// 	name: "Tasks",
@@ -345,7 +345,7 @@ export const examples: Example[] = [
 	{
 		name: "Authentication",
 		href: "/auth",
-		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/examples/authentication"
+		code: "https://github.com/Evertt/sk-forms-showcase-project/tree/main/src/routes/auth"
 	}
 	// {
 	// 	name: "Forms",

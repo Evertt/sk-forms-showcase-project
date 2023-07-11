@@ -1,12 +1,6 @@
 <script lang="ts">
-	import {
-		Activity,
-		CreditCard,
-		DollarSign,
-		Download,
-		Users
-	} from "lucide-svelte";
-	import { Dashboard } from "$components";
+	import { Activity, CreditCard, DollarSign, Download, Users } from "lucide-svelte";
+	import { MainNav, Overview, RecentSales, Search } from ".";
 	import { Avatar, Button, Card, Tabs } from "$ui";
 </script>
 
@@ -29,9 +23,9 @@
 <div class="hidden flex-col md:flex">
 	<div class="border-b">
 		<div class="flex h-16 items-center px-4">
-			<Dashboard.MainNav class="mx-6" />
+			<MainNav class="mx-6" />
 			<div class="ml-auto flex items-center space-x-4">
-				<Dashboard.Search />
+				<Search />
 				<Avatar className="h-8 w-8">
 					<Avatar.Image src="/avatars/01.png" alt="@shadcn" />
 					<Avatar.Fallback>SC</Avatar.Fallback>
@@ -131,7 +125,7 @@
 							<Card.Title>Overview</Card.Title>
 						</Card.Header>
 						<Card.Content>
-							<Dashboard.Overview />
+							<Overview />
 						</Card.Content>
 					</Card>
 					<Card class="col-span-3">
@@ -142,7 +136,7 @@
 							</Card.Description>
 						</Card.Header>
 						<Card.Content>
-							<Dashboard.RecentSales />
+							<RecentSales />
 						</Card.Content>
 					</Card>
 				</div>
